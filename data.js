@@ -366,7 +366,7 @@ window.MONEDAS = [
     "name": "Heroínas Toledo",
     "region": "Perú",
     "year": "2020",
-    "image": "imagen/hermnatoledo.jpg"
+    "image":"imagen/hermnatoledo.jpg"
   },
   {
     "id": 42,
@@ -375,7 +375,7 @@ window.MONEDAS = [
     "name": "María Parado de Bellido",
     "region": "Ayacucho",
     "year": "2020",
-    "image": "imagen/maria.jpg"
+    "image":"imagen/maria.jpg"
   },
   {
     "id": 43,
@@ -384,7 +384,7 @@ window.MONEDAS = [
     "name": "Juan Pablo Viscardo y Guzmán",
     "region": "Perú",
     "year": "2020",
-    "image": "imagen/bicentenario-jpvg.jpg"
+    "image":"imagen/bicentenario-jpvg.jpg"
   },
   {
     "id": 44,
@@ -393,7 +393,7 @@ window.MONEDAS = [
     "name": "Hipólito Unanue y Pavón",
     "region": "Perú",
     "year": "2021",
-    "image": "imagen/bicentenario-huyp.jpg"
+    "image":"imagen/bicentenario-huyp.jpg"
   },
   {
     "id": 45,
@@ -402,7 +402,7 @@ window.MONEDAS = [
     "name": "Toribio Rodríguez de Mendoza",
     "region": "Perú",
     "year": "2021",
-    "image": "imagen/bicentenario-trdm.jpg"
+    "image":"imagen/bicentenario-trdm.jpg"
   },
   {
     "id": 46,
@@ -420,7 +420,7 @@ window.MONEDAS = [
     "name": "José Baquíjano y Carrillo",
     "region": "Perú",
     "year": "2022",
-    "image": "imagen/bicentenario-jbyc.jpg"
+    "image":"imagen/bicentenario-jbyc.jpg"
   },
   {
     "id": 48,
@@ -438,7 +438,7 @@ window.MONEDAS = [
     "name": "Francisco Xavier de Luna Pizarro",
     "region": "Perú",
     "year": "2023",
-    "image": "imagen/bicentenario--fxlp.jpg"
+    "image":"imagen/bicentenario--fxlp.jpg"
   },
   {
     "id": 50,
@@ -447,7 +447,7 @@ window.MONEDAS = [
     "name": "José de La Mar y Cortázar",
     "region": "Perú",
     "year": "2023",
-    "image": "imagen/bicentenario-jmyc.jpg"
+    "image":"imagen/bicentenario-jmyc.jpg"
   },
   {
     "id": 51,
@@ -456,7 +456,7 @@ window.MONEDAS = [
     "name": "José Manuel Valdés",
     "region": "Perú",
     "year": "2023",
-    "image": "imagen/bicentenario-jmv.jpg"
+    "image":"imagen/bicentenario-jmv.jpg"
   },
   {
     "id": 52,
@@ -465,7 +465,7 @@ window.MONEDAS = [
     "name": "Período Formativo",
     "region": "Perú",
     "year": "2024",
-    "image": "imagen/btn-01-periodo-formativo.jpg"
+    "image":"imagen/btn-01-periodo-formativo.jpg"
   },
   {
     "id": 53,
@@ -483,7 +483,7 @@ window.MONEDAS = [
     "name": "Cultura Vicús",
     "region": "Perú",
     "year": "2025",
-    "image": "imagen/btn-03-cultura-vicus.jpg"
+    "image":"imagen/btn-03-cultura-vicus.jpg"
   },
   {
     "id": 55,
@@ -492,7 +492,7 @@ window.MONEDAS = [
     "name": "Cultura Nasca",
     "region": "Perú",
     "year": "2025",
-    "image": "imagen/btn-04-cultura-nasca.jpg"
+    "image":"imagen/btn-04-cultura-nasca.jpg"
   },
   {
     "id": 56,
@@ -501,6 +501,6 @@ window.MONEDAS = [
     "name": "Cultura Recuay",
     "region": "Perú",
     "year": "2025",
-    "image": "imagen/btn-05-cultura-recuay.jpg"
+    "image":"imagen/btn-05-cultura-recuay.jpg"
   }
 ];
