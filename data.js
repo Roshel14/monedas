@@ -6,7 +6,7 @@ window.MONEDAS = [
     "name": "Tumi de Oro",
     "region": "Lambayeque",
     "year": "2010",
-    "image": "imagen/btn-01-tumi-de-oro.jpg"
+    "image": "/imagen/btn-01-tumi-de-oro.jpg"
   },
   {
     "id": 2,
