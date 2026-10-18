@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Álbum Numismático del Perú — 56 monedas</title>
+  <meta name="description" content="Álbum digital para coleccionar y marcar 56 monedas peruanas de 1 sol.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">🇵🇪 <span>ÁLBUM NUMISMÁTICO</span></div>
+    <div class="top-actions">
+      <button id="themeBtn" class="icon-btn" title="Cambiar tema">☾</button>
+      <button id="resetBtn" class="danger-btn">Reiniciar colección</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image">
+        <div class="reference-map" id="referenceMap">
+          <img src="assets/portada-referencia.png" alt="Álbum físico de referencia con monedas del Perú">
+          <div class="map-hint">Los puntos verdes indican las monedas que ya marcaste</div>
+        </div>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">COLECCIÓN DIGITAL • 1 SOL</p>
+        <h1>Riqueza, historia<br><span>y orgullo del Perú</span></h1>
+        <p class="lead">Tu álbum digital para registrar tus monedas. Marca cada pieza encontrada y conserva tu progreso automáticamente en este dispositivo.</p>
+        <div class="progress-wrap">
+          <div class="progress-head"><strong id="progressText">0 de 56</strong><span id="progressPct">0%</span></div>
+          <div class="progress"><i id="progressBar"></i></div>
+        </div>
+        <div class="stats">
+          <div><b id="foundCount">0</b><span>Encontradas</span></div>
+          <div><b id="missingCount">56</b><span>Faltantes</span></div>
+          <div><b>56</b><span>Total</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="controls">
+      <div class="search">
+        <span>⌕</span><input id="search" type="search" placeholder="Buscar moneda, serie, región..." autocomplete="off">
+      </div>
+      <div class="filters" id="filters">
+        <button class="filter active" data-filter="all">Todas</button>
+        <button class="filter" data-filter="missing">Me faltan</button>
+        <button class="filter" data-filter="found">Tengo</button>
+      </div>
+    </section>
+
+    <div id="seriesNav" class="series-nav"></div>
+    <section id="album" class="album"></section>
+
+    <section class="notes">
+      <div>
+        <h2>📌 Cómo usar tu álbum</h2>
+        <p>Haz clic en una moneda para marcarla como <strong>Tengo</strong>. Vuelve a hacer clic para desmarcarla. Las monedas visibles en la portada de referencia reciben un <strong class="green-dot">● punto verde</strong> automáticamente. El progreso queda guardado en <strong>localStorage</strong>.</p>
+      </div>
+      <div class="note-card">
+        <span>56</span>
+        <small>espacios de colección</small>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Álbum Numismático del Perú</strong>
+    <span>Diseño inspirado en el álbum mostrado y en la estética de las series del BCRP.</span>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
