@@ -1,4 +1,4 @@
-window.MONEDAS = [
+N8window.MONEDAS = [
   {
     "id": 1,
     "series": "Riqueza y Orgullo del Perú",
@@ -6,7 +6,7 @@ window.MONEDAS = [
     "name": "Tumi de Oro",
     "region": "Lambayeque",
     "year": "2010",
-    "image": "/imagen/btn-01-tumi-de-oro.jpg"
+    "image": "https://www.bcrp.gob.pe/billetes-y-monedas/monedas-de-coleccion/serie-numismatica-riqueza-y-orgullo-del-peru/moneda-alusiva-al-arco-parabolico-de-tacna.html"
   },
   {
     "id": 2,
